@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLayerApi</name>
+    </assembly>
+    <members>
+        <member name="M:NLayerApi.Controllers.ProductController.GetFullModel">
+            <summary>
+            Shows all the products with their categories and features.
+            (Done by Store Procedure)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NLayerApi.Controllers.ProductController.GetFullModelWithFunction">
+            <summary>
+            Shows all the products with their categories and features.
+            (Done by Function)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NLayerApi.Controllers.ProductController.CreateWithFeatures(NLayerService.Dtos.ProductDto,NLayerService.Dtos.ProductFeatureDto)">
+            <summary>
+            Adds product with features.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NLayerApi.Controllers.ProductFeatureController.Create(System.Int32,NLayerService.Dtos.ProductFeatureDto)">
+            <summary>
+            Adds a feature to an existing product.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
